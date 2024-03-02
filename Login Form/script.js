@@ -70,7 +70,13 @@ const userInputBlur = () => {
 const userInputKeydown = (event) => {
 
     if (leftEyePaddingLeft > 20) {
-        return false
+        if (event.keyCode === 8) {
+            leftEyePaddingLeft--
+            rightEyePaddingLeft--
+        } else {
+
+            return false
+        }
     }
 
     if (event.keyCode === 8) {
