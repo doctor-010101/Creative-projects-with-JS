@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #4249ed;
+  background-color: #21ae79;
 }
 #toggle-btn,
 .menu a {
@@ -18,15 +18,15 @@ body {
   height: 70px;
   width: 70px;
   font-size: 22px;
-  color: #4249ed;
+  color: #443947;
   text-decoration: none;
   top: 30px;
   left: 30px;
   transition: 0.5s;
 }
 #toggle-btn {
-  background-color: #0f1730;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #443947;
   height: 100px;
   width: 100px;
   border: none;
